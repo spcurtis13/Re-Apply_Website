@@ -1,0 +1,17 @@
+.FullNavigationBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    overflow: auto;
+    color: #e6e6e6;
+    background-color: rgb(20, 20, 20);
+  }
+ul{
+    padding: 20px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    text-align: left;
+}
+  

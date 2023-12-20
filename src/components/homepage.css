@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    top: 0;
+}
+
+.body{
+    padding-top: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.school{
+    border-radius: 50px;
+    background: #1f1f1f;
+    box-shadow: inset 20px 20px 60px #1a1a1a,
+                inset -20px -20px 60px #242424;
+}
