@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Hewlett Packard",
+      "description": "An American multinational information technology company",
+      "location": "Palo Alto, California",
+      "estimatedEmployees": 50000,
+      "type": "Technology"
+    },
+    {
+        "name": "TEST COMPANY",
+        "description": "TEST DESCRIPTION",
+        "location": "TEST LOCATION",
+        "estimatedEmployees": 99999,
+        "type": "TEST"
+    }
+  ]
+  
