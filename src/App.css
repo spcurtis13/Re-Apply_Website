@@ -15,11 +15,11 @@
   top: 0;
   left: 150px;
   right: 0;
-  position: fixed;
+  position: absolute;
   overflow-y: auto;
 }
 
 .mainScreen{
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
