@@ -16,4 +16,10 @@
   left: 150px;
   right: 0;
   position: fixed;
+  overflow-y: auto;
 }
+
+.mainScreen{
+  overflow-y: scroll;
+}
+

@@ -36,20 +36,21 @@ const Employers = () => {
   return (
     <div className="FullPage">
       <h1 className="title">Current Employers</h1>
+      <div className='parentFilter'>
       <div className='filters'>
-
-      <div className="hamburger-icon" onClick={toggleMenu}>
+      <div className="hamburgerIcon" onClick={toggleMenu}>
         ☰
       </div>
-
       {isMenuOpen && (
-        <div className="hamburger-menu">
+        <div className="dropdown-menu">
           <button onClick={() => setFilter('asc')}>Alphabetical (A-Z)</button>
           <button onClick={() => setFilter('desc')}>Alphabetical (Z-A)</button>
           <button onClick={() => setFilter('size')}>Employee Size</button>
           <button onClick={() => setFilter('type')}>Type</button>
         </div>
       )}
+      </div>
+
 
       </div>
       <div className="body">

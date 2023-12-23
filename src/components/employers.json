@@ -12,6 +12,20 @@
         "location": "TEST LOCATION",
         "estimatedEmployees": 99999,
         "type": "TEST"
+    },
+    {
+        "name": "TEST COMPANY",
+        "description": "TEST DESCRIPTION",
+        "location": "TEST LOCATION",
+        "estimatedEmployees": 5,
+        "type": "Aerospace"
+    },
+    {
+        "name": "TEST COMPANY",
+        "description": "TEST DESCRIPTION",
+        "location": "TEST LOCATION",
+        "estimatedEmployees": 5,
+        "type": "Aerospace"
     }
   ]
   
