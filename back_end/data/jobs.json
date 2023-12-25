@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "title": "Software Engineer",
+        "company": "Tech Corp",
+        "location": "San Francisco, CA",
+        "description": "Responsibilities include...",
+        "requirements": "Required skills...",
+        "date_posted": "2023-12-01"
+    },
+    {
+        "id": "2",
+        "title": "Software Engineer",
+        "company": "Oregon State",
+        "location": "Corvallis, OR",
+        "description": "Responsibilities include...",
+        "requirements": "Required skills...",
+        "date_posted": "2023-12-02"
+    }
+] 
