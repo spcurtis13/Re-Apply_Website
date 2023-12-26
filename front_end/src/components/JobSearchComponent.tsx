@@ -1,9 +1,8 @@
-// Static jobs data (replace this with API call if needed)
-const staticJobs = [
+/*const staticJobs = [
     { id: 1, title: 'Software Engineer', location: 'New York' },
     { id: 2, title: 'Web Developer', location: 'San Francisco' },
     // ... more jobs ...
-];
+];*/
 
 import React, { useState, useEffect } from 'react';
 
@@ -12,7 +11,19 @@ function JobSearchComponent() {
     const [jobs, setJobs] = useState([]);
 
     useEffect(() => {
-        setJobs(staticJobs); // Replace with API call
+        fetch('http://localhost:3000/api/jobs')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                setJobs(data); // Assuming the API returns an array of jobs
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
     }, []);
 
     function handleSearchChange(event) {
@@ -43,3 +54,4 @@ function JobSearchComponent() {
 }
 
 export default JobSearchComponent;
+
